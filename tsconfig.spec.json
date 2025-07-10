@@ -10,7 +10,11 @@
       "vitest",
       "@nx/react/typings/cssmodule.d.ts",
       "@nx/react/typings/image.d.ts"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
     "vite.config.ts",

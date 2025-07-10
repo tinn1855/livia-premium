@@ -2,7 +2,7 @@ import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="bg-primary py-3 my-5 text-white">
+    <footer className="bg-primary py-3 text-white">
       <div className="container mx-auto px-5">
         <section className="flex flex-col md:flex-row justify-between gap-6">
           <address className="not-italic w-full md:w-1/3">

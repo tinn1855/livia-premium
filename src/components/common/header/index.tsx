@@ -1,9 +1,8 @@
-import { Button } from '@/components/ui/button';
 import { ShoppingCart } from 'lucide-react';
 
 export function Header() {
   return (
-    <header className="bg-primary py-3">
+    <header className="bg-primary py-3 fixed z-10 w-full shadow-xl">
       <div className="container mx-auto px-5 flex justify-between items-center text-white">
         <div>
           <img
